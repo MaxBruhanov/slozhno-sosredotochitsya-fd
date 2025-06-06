@@ -241,11 +241,6 @@
     padding-block-start: 60px;
   }
 
-  .footer__title {
-    align-content: center;
-    margin-block-start: 20px;
-  }
-
   .why-focus {
     grid-template-columns: 32.4% 65%;
   }
@@ -305,10 +300,6 @@
   .footer {
     margin-block-start: 20px;
     min-block-size: 1024px;
-  }
-
-  .footer__title {
-    margin-block-start: 0px;
   }
 }
 
