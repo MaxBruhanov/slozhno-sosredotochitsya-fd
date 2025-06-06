@@ -48,6 +48,7 @@
 }
 
 .header__rec {
+  display: inline-block;
   position: absolute;
   top: 10px;
   right: calc(var(--page-gap) + 28px);
@@ -209,6 +210,7 @@
 @media (width >= 768px) {
   .header {
     min-block-size: 1024px;
+    gap: 174px;
   }
 
   .header__rec {
@@ -223,7 +225,6 @@
   .header__title {
     align-content: center;
     margin-inline-start: -20px;
-    block-size: 335px;
   }
 
   .header__title-desctiption {
@@ -252,7 +253,8 @@
   }
 
   .what-focus__title {
-    inline-size: 130px;
+    width: 100%;
+    max-width: 130px;
   }
 
   .how-focus {
@@ -308,6 +310,7 @@
 @media (width >= 1024px) {
   .header {
     min-block-size: 768px;
+    gap: 127px;
   }
 
   .header__theme-menu-list {
@@ -317,10 +320,6 @@
     justify-content: center;
     gap: 10px;
     margin-block-start: 18px;
-  }
-
-  .header__title-desctiption {
-    margin-block-start: -44px;
   }
 
   .why-focus {
