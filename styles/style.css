@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  padding-inline: var(--page-gap);
+  
   color: var(--text-color);
   font-family: var(--font-family), monospace;
   font-size: var(--font-size);
@@ -15,6 +15,7 @@
 }
 
 .header {
+  padding-inline: var(--page-gap);
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -27,7 +28,7 @@
   content: '';
   position: absolute;
   top: var(--page-gap);
-  right: 0;
+  right: var(--page-gap);
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
   inline-size: 25px;
@@ -38,7 +39,7 @@
   content: '';
   position: absolute;
   bottom: var(--page-gap);
-  left: 0;
+  left: var(--page-gap);
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
   transform: rotate(180deg);
@@ -49,7 +50,7 @@
 .header__rec {
   position: absolute;
   top: 10px;
-  right: 28px;
+  right: calc(var(--page-gap) + 28px);
   color: var(--accent-color);
   text-transform: uppercase;
 }
@@ -150,6 +151,7 @@
 }
 
 .main {
+  padding-inline: var(--page-gap);
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;

@@ -23,6 +23,7 @@
 .header__rec {
   display: none;
 }
+
 /* Вам также нужно будет написать ряд подобных селекторов */
 @media (prefers-color-scheme: light) {
   :root {

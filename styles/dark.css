@@ -16,6 +16,6 @@
   --bg-image: url(../images/cover-image-dark.png);
 }
 
-.header__rec {
+.theme-dark .header__rec {
   display: inline-block;
 }
