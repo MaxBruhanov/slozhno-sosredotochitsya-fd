@@ -131,7 +131,7 @@
 }
 
 .card__text-link:hover {
-  text-decoration: underline;
+  border-block-end: 1px solid var(--text-color);
 }
 
 .card__text-link:focus {
